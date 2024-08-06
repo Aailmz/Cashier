@@ -169,9 +169,9 @@ namespace Cashier
         private void StartHttpServer()
         {
             listener = new HttpListener();
-            listener.Prefixes.Add("http://192.168.1.164:8000/");
+            listener.Prefixes.Add("http://192.168.1.179:8000/");
             listener.Start();
-            Console.WriteLine("Server started, listening on http://192.168.1.164:8000/");
+            Console.WriteLine("Server started, listening on http://192.168.1.179:8000/");
             listenerThread = new Thread(Listen);
             listenerThread.Start();
         }
