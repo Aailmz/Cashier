@@ -1,3 +1,3 @@
-# cashier_scan
+# MOBILE SCANNER
 
-A new Flutter project.
+This is the Mobile App for Scan QR Code that generated in Cashier Desktop App and show it in transaction DataGrid!
