@@ -33,6 +33,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.buttonDelet = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
             this.pictureBoxQRCode = new System.Windows.Forms.PictureBox();
             this.txtKodeBarang = new System.Windows.Forms.TextBox();
             this.numericHargaBarang = new System.Windows.Forms.NumericUpDown();
@@ -42,8 +44,6 @@
             this.numericStok = new System.Windows.Forms.NumericUpDown();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.buttonEdit = new System.Windows.Forms.Button();
-            this.buttonDelet = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -83,7 +83,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(76, 20);
             this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
+            this.button4.Text = "SEARCH";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox1
@@ -110,6 +110,28 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(369, 410);
             this.panel3.TabIndex = 1;
+            // 
+            // buttonDelet
+            // 
+            this.buttonDelet.BackColor = System.Drawing.Color.Red;
+            this.buttonDelet.Location = new System.Drawing.Point(181, 256);
+            this.buttonDelet.Name = "buttonDelet";
+            this.buttonDelet.Size = new System.Drawing.Size(175, 23);
+            this.buttonDelet.TabIndex = 11;
+            this.buttonDelet.Text = "DELETE";
+            this.buttonDelet.UseVisualStyleBackColor = false;
+            this.buttonDelet.Click += new System.EventHandler(this.buttonDelet_Click);
+            // 
+            // buttonEdit
+            // 
+            this.buttonEdit.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonEdit.Location = new System.Drawing.Point(181, 285);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(175, 23);
+            this.buttonEdit.TabIndex = 10;
+            this.buttonEdit.Text = "EDIT";
+            this.buttonEdit.UseVisualStyleBackColor = false;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // pictureBoxQRCode
             // 
@@ -186,28 +208,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "STORAGE";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // buttonEdit
-            // 
-            this.buttonEdit.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonEdit.Location = new System.Drawing.Point(181, 285);
-            this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(175, 23);
-            this.buttonEdit.TabIndex = 10;
-            this.buttonEdit.Text = "EDIT";
-            this.buttonEdit.UseVisualStyleBackColor = false;
-            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
-            // 
-            // buttonDelet
-            // 
-            this.buttonDelet.BackColor = System.Drawing.Color.Red;
-            this.buttonDelet.Location = new System.Drawing.Point(181, 256);
-            this.buttonDelet.Name = "buttonDelet";
-            this.buttonDelet.Size = new System.Drawing.Size(175, 23);
-            this.buttonDelet.TabIndex = 11;
-            this.buttonDelet.Text = "DELETE";
-            this.buttonDelet.UseVisualStyleBackColor = false;
-            this.buttonDelet.Click += new System.EventHandler(this.buttonDelet_Click);
             // 
             // Storage
             // 
