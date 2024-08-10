@@ -51,3 +51,4 @@ D:\TUGAS 2.0\VS2022\Cashier\Cashier\bin\Debug\Newtonsoft.Json.xml
 D:\TUGAS 2.0\VS2022\Cashier\Cashier\obj\Debug\Cashier.Cashier.resources
 D:\TUGAS 2.0\VS2022\Cashier\Cashier\obj\Debug\Cashier.Login.resources
 D:\TUGAS 2.0\VS2022\Cashier\Cashier\obj\Debug\Cashier.Storage.resources
+D:\TUGAS 2.0\VS2022\Cashier\Cashier\obj\Debug\Cashier.Admin.resources
